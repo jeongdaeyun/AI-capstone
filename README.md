@@ -1,4 +1,2 @@
-# A_re_proj
-
-### binary_thresholding.py
-- pycharm에서 실행 시 File > Settings > Project > Python Interpreter에 **matplotlib** 설치 후 실행
+# A_re_proj 캡스톤 프로젝트
+2022년 동안 팀으로 프로젝트를 진행하였습니다.
