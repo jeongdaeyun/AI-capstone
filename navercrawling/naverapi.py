@@ -12,8 +12,8 @@ import sys
 import urllib.request
 import json
 
-client_id = "Ey5m8LgneWoCTPofCLJs"
-client_secret = "Be0LOzgfuV"
+client_id = "자신의 id"
+client_secret = "자신의 비밀번호"
 encText = urllib.parse.quote("성산일출봉")
 url = "https://openapi.naver.com/v1/search/image?display=100&query=" + encText + " 인생샷"
 
@@ -24,7 +24,7 @@ response = urllib.request.urlopen(request)
 rescode = response.getcode()
 
 # 이미지 저장 경로
-savePath = "/content/naverapi/"
+savePath = "저장경로 기입"
 
 if(rescode==200):
     response_body = response.read()
